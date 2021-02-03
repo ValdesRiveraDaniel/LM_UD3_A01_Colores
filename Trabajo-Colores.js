@@ -19,6 +19,10 @@ function mueveReloj(){
 }
 
 
+function myFunction() {
+    alert("Intente hacer lo de los colores, pero solo puedo añadir un color, en cada cuadrado, pongo esta alerta para que sepas que sabemos hacer alertas");
+  }
+
 
 
 
