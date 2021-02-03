@@ -13,26 +13,33 @@
 <header>
 Jorge Bravo, Antonio Herraiz, Daniel Valdés
 </header>
+<section>
 <div id=divDedivs>
 <div class="grid-container">
-    <div id = cubo1 onclick = "getRandomColor(this);"></div>
-    <div id = cubo2 onclick = "changeColor(this);"></div>
-    <div id = cubo3 onclick = "changeColor(this);"></div>
-    <div id = cubo4 onclick = "changeColor(this);"></div>
-    <div id = cubo5 onclick = "changeColor(this);"></div>
-    <div id = cubo6 onclick = "changeColor(this);"></div>
-    <div id = cubo7 onclick = "changeColor(this);"></div>
-    <div id = cubo8 onclick = "changeColor(this);"></div>
-    <div id = cubo9 onclick = "changeColor(this);"></div>
-    <div id = cubo10 onclick = "changeColor(this);"></div>
+    <button cubo1 onclick = "cambioColor(this);"></button>
+    <button cubo2 onclick = "cambioColor(this);"></button>
+    <button cubo3 onclick = "cambioColor(this);"></button>
+    <button cubo4 onclick = "cambioColor(this);"></button>
+    <button cubo5 onclick = "cambioColor(this);"></button>
+    <button cubo6 onclick = "cambioColor(this);"></button>
+    <button cubo7 onclick = "cambioColor(this);"></button>
+    <button cubo8 onclick = "cambioColor(this);"></button>
+    <button cubo9 onclick = "cambioColor(this);"></button>
+    <button cubo10 onclick = "cambioColor(this);"></button>
     
 </div>
 </div>
+</section>
+
+
+
+
+</script>
 
 
 <footer>
 <script src="Trabajo-Colores.js"></script>
-<body onload="RelojJS()">
+<body onload="mueveReloj()">
 
 <form name="form_reloj">
 <input type="text" name="reloj" size="20%" style="color : rgb(13, 162, 231); font-family :Helvetica; font-size : 30px; text-align : center;" onfocus="window.document.form_reloj.reloj.blur()">
